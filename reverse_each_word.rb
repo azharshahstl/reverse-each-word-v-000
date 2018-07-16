@@ -12,5 +12,6 @@ words = words.split(" ")
   words.collect do |word|
     reverse_words << word.reverse
     reverse_words.join(" ")
+  end
 end
 
